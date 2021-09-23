@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.navbar{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0 50px;
+    height: 100%;
+    font-size: 25px;
+}
+
+.navbar-btn {
+    background-color: black;
+    color: lightgray;
+    border: none;
+    outline: none;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.navbar-btn:hover {
+    opacity:1;
+}
+
+.title-container {
+    flex: 4;
+    height: 100%;
+    font-size: 30px;
+}
+
+.title {
+    letter-spacing: 4px;
+}
+
+.search-bar-container {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.search-bar {
+    width: 70%;
+}
+
+.search-btn {
+    font-size: 30px;
+}
+
+.profile-container {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end ;
+}
+
+.profile {
+    font-size: 30px;
+}
+
+.container {
+    background-color: #151515;
+    min-height: calc(100vh - 50px);
+}
+
+.featured-movie {
+    height: 50vh;
+    padding: 50px;
+}
+
+.featured-movie-title {
+    font-size: 75px;
+    padding-top: 250px;
+    color: lightgray;
+}
+
+.featured-movie-description {
+    width: 40vw;
+    color: gray;
+}
+
+.get-tickets-btn {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    opacity: 0.6;
+}
+
+.get-tickets-btn:hover {
+    opacity: 1;
+}
+
+.movie-bar-container {
+    padding: 50px;
+}
+
+.movie-bar-title {
+    color: lightgray;
+}
+
+.movie-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.movie-bar-item{
+    height: 90%;
+    padding: 0 10px;
+}
+
+.movie-item-img {
+    height: 75%;
+}
+
+.movie-item-title {
+    font-size: 30px;
+}
