@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.showtimes {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.showtime-wrapper {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    background-color: purple;
+}
+
+.showtime-go-back {
+    flex: 1;
+    background-color: blue;
+}
+
+.showtime-header {
+    flex: 6;
+    background-color: green;
+}
+
+.showtime-end {
+    flex: 1;
+    background-color: red;
+}
+
+.filter-wrapper {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(53, 14, 160);
+
+}
+
+.filter-date {
+    flex: 1;
+}
+
+.filter-movie {
+    flex: 1;
+}
+
+.filter-promo-code {
+    flex: 1;
+}
