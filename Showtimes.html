@@ -4,42 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Showtimes</title>
+
     <link rel="stylesheet" href="Showtimes.css">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Showtimes</title>
 </head>
+
 <body>
-    <div class="showtimes">
-        <div class="showtime-wrapper">
-            <div class="showtime-go-back">
-                Go Back
-            </div>
-            <div class="showtime-header">
-                Showtimes
-            </div>
-            <div class="showtime-end">
-                Exit
-            </div>
+    <div class="navbar">
+        <div class="navbar-container">
+            <button class="navbar-btn go-back">
+                <i class="fas fa-chevron-left"></i>
+            </button> 
+            <p class="navbar-title">SHOWTIMES</p>
+            <button class="navbar-btn exit">
+                <i class="fas fa-times"></i>
+            </button>
         </div>
-        <div class="filter-wrapper">
-            <div class="filter-date">
-                Date
-            </div>
-            <div class="filter-movie">
-                Movie List
-            </div>
-            <div class="filter-promo-code">
-                Promo Movies
-            </div>
-        </div>
-
-
-
-
-
-
-
     </div>
-    
+
+    <div class="showtimes-body-container">
+        <div class="showtimes-header">
+            <p class="movie-name">
+                Shang-Chi and the Legend of the Ten Rings
+            </p>
+            <div class="showtimes-sub-title">
+                <p class="movie-duration">
+                    2 HR 12 MIN
+                </p>
+                <p> || </p>
+                <p class="age-category">
+                    PG13
+                </p>
+            </div>
+        </div>
+
+        <div class="showtimes-body">
+            <div class="showtimes-dates-container">
+                <p class="crimson-title">Select a Date: </p>
+                <div class="button-wrapper">
+                    <button class="showtimes-btn">
+                        Friday || September 24
+                    </button>
+                    <button class="showtimes-btn">
+                        Saturday || September 25
+                    </button>
+                    <button class="showtimes-btn">
+                        Sunday || September 26
+                    </button>
+                    <button class="showtimes-btn">
+                        Monday || September 27
+                    </button>
+                    <button class="showtimes-btn">
+                        Tuesday || September 28
+                    </button>
+                    <button class="showtimes-btn">
+                        Wednesday || September 29
+                    </button>
+                    <button class="showtimes-btn">
+                        Thursday || September 30
+                    </button>
+                </div>
+            </div>
+            <div class="showtimes-container">
+                <p class="crimson-title">Select a Showtime: </p>
+                <div class="button-wrapper">
+                    <button class="showtimes-btn">
+                        3:00 pm
+                    </button>
+                    <button class="showtimes-btn">
+                        4:00 pm
+                    </button>
+                    <button class="showtimes-btn">
+                        5:00 pm
+                    </button>
+                    <button class="showtimes-btn">
+                        6:00 pm
+                    </button>
+                    <button class="showtimes-btn">
+                        7:00 pm
+                    </button>
+                    <button class="showtimes-btn">
+                        8:00 pm
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+    
+
 </html>
