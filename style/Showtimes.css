@@ -61,13 +61,6 @@ body {
     color: lightgray;
 }
 
-.circle-img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    opacity: 0.9;
-}
-
 .movie-name {
     font-size: 50px;
     font-weight: 700;
