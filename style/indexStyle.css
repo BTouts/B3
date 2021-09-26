@@ -99,6 +99,7 @@
     border: none;
     outline: none;
     opacity: 1;
+    cursor: pointer;
 }
 
 .get-tickets-btn:hover {
