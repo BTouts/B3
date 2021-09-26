@@ -1,0 +1,79 @@
+body{
+    background-color: #4d4d4d;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: white;
+}
+
+#title{
+    text-align: center;
+}
+
+.register-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration{
+    position: relative;
+    width: auto;
+    margin: auto;
+    max-width: 500px;
+    padding: 40px 40px 60px;
+    background:#1515159b;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.7);
+}
+
+.registration-form, .payment-fields{
+    float:left;
+    text-align:right;
+}
+
+.registration-form{
+    margin: auto;
+    width: 100%;
+}
+
+.registration-form input{
+    width: 65%;
+}
+
+fieldset, .address-layout{
+    clear:both;
+    width:auto;
+    margin:auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.address-layout .address-lines{
+    width: 100%;
+}
+
+.check{
+    float:left;
+    text-align: left;
+}
+
+#create-button{
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+h4{
+    padding-top: 20px;
+}
