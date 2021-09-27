@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> My Subscription</title>
+        <link rel="stylesheet" href="style/sidebar_style.css" type="text/css">
+        <link rel="stylesheet" href="style/payment-method_style.css" type="text/css">
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <img src="images/popcorn-icon.png" alt="">
+                <h4>Welcome, [Name]!</h4>
+                <ul>
+                    <li><a href=""><i class="las la-user"></i> Profile</a></li>
+                    <li><a href=""><i class="las la-history"></i> Order History</a></li>
+                    <li id="active"><a href=""><i class="las la-credit-card"></i> My Payment Method</a></li>
+                    <li><a href=""><i class="las la-sign-out-alt"></i> Sign Out</a></li>
+                </ul>
+            </div>
+            <div class="main-container">
+                <div class="header"><h1>My Subscription</h1><br></div>
+                <div class="profile">
+                    <label for="username">Billing Address:</label>
+                    [ADDRESS]<br><br>
+                    <label for="name">Credit Card Information</label><br><br>
+                </div>
+                <div class="update">
+                    <h3>Update My Payment Information</h3>
+                    <div class="change">
+                        <form action="#" class="card-form">
+                            <div class="input-group">
+                                <input type="text" name="card_Name" id="card_Name">
+                                <label for="card_Name">Name on Card</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" name="card_Num" id="card_Num">
+                                <label for="card_Num">Card Number</label>
+                            </div>
+                            <div class="select-group">
+                                <label for="card_Type">Card Type: </label>
+                                <select name="card_Type" id="card_Type">
+                                    <option value="visa">Visa</option>
+                                    <option value="mastercard">Mastercard</option>
+                                    <option value="discover">Discover</option>
+                                    <option value="america_express">America Express</option>
+                                </select>
+                            </div><br>
+                            <div class="expiration">
+                                <label for="card_ExpDate">Expiration Date: </label>
+                                <input type="text" name="card_ExpDate" id="card_ExpDate" placeholder="MM/YYYY">
+                            </div>
+                            <div class="input-group">
+                                <input type="password" name="password" id="password" class="textfield"  required>
+                                <label for="password">Confirm Password</label>
+                            </div>
+                            <label>Subscription to receive Promotion Codes</label>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                            <input type="submit" value="Update" class="update-btn">
+                        </form>
+                    </div>
+            </div>
+        </div> 
+    </body>
+</html>
