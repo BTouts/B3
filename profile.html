@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>User Profile</title>
+        <link rel="stylesheet" href="style/admin_style.css" type="text/css">
+        <link rel="stylesheet" href="style/profile_style.css" type="text/css">
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <img src="images/popcorn-icon.png" alt="">
+                <h4>Welcome, [Name]!</h4>
+                <ul>
+                    <li id="active"><a href=""><i class="las la-user"></i> Profile</a></li>
+                    <li><a href=""><i class="las la-history"></i> Order History</a></li>
+                    <li><a href=""><i class="las la-credit-card"></i> Payment Method</a></li>
+                    <li><a href=""><i class="las la-sign-out-alt"></i> Sign Out</a></li>
+                </ul>
+            </div>
+            <div class="main-container">
+                <div class="header"><h1>[Name]'s Profile</h1><br></div>
+                <div class="profile">
+                    <label for="username">Username:</label>
+                    [USERNAME]<br><br>
+                    <label for="name">Name:</label>
+                    [NAME]<br><br>
+                    <label for="email">Email:</label>
+                    [EMAIL]<br><br>
+                    <label for="password">Password:</label>
+                    [********]<br><br>
+                </div>
+                <div class="update">
+                    <h3>Update My Profile</h3>
+                    <div class="change">
+                        <form action="#" class="username-form">
+                            <div class="input-group">
+                                <input type="text" name="new-username" id="username" class="textfield" required>
+                                <label for="new-username">New Username</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="password" name="password" id="password" class="textfield"  required>
+                                <label for="password">Confirm Password</label>
+                            </div>
+                            <input type="submit" value="Update" class="update-btn">
+                        </form>
+                    </div>
+                    <div class="change">
+                        <form action="#" class="name-form">
+                            <div class="input-group">
+                                <input type="text" name="new-name" id="newname" class="textfield" required>
+                                <label for="new-name">New Name</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="password" name="password" id="password" class="textfield"  required>
+                                <label for="password">Confirm Password</label>
+                            </div>
+                            <input type="submit" value="Update" class="update-btn">
+                        </form>
+                    </div>
+                    <div class="change">
+                        <form action="#" class="pass-form">
+                            <div class="input-group">
+                                <input type="password" name="new-pass" id="new-pass" class="textfield"  required>
+                                <label for="new-pass">New Password</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="password" name="password" id="password" class="textfield"  required> 
+                                <label for="password">Confirm Old Password</label>
+                            </div>
+                            <input type="submit" value="Update" class="update-btn">
+                        </form>
+                    </div>
+            </div>
+        </div> 
+    </body>
+</html>
