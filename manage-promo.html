@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Manage Promotions</title>
+        <link rel="stylesheet" href="style/admin_style.css" type="text/css">
+        <link rel="stylesheet" href="style/manage-promo_style.css" type="text/css">
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <h2>Admin Dashboard</h2>
+                <img src="images/popcorn-icon.png" alt="">
+                <h4>Welcome, [Name]!</h4>
+                <ul>
+                    <li><a href=""><i class="las la-user-tie"></i> Profile</a></li>
+                    <li><a href=""><i class="las la-film"></i> Manage Movies</a></li>
+                    <li id="active"><a href=""><i class="las la-money-check-alt"></i> Manage Promotions</a></li>
+                    <li><a href=""><i class="las la-users"></i> Manage Users</a></li>
+                    <li><a href=""><i class="las la-user-plus"></i> Create New Admin</a></li>
+                    <li><a href=""><i class="las la-sign-out-alt"></i> Sign Out</a></li>
+                </ul>
+            </div>
+            <div class="main-container">
+                <div class="header"><h1>Manage Promotions</h1><br></div>
+
+                <div class="addPromo-container">
+                    <h2>Add a New Promotion Code</h2><br>
+                    <h5>Fill out the following form to send out a discount code to subscribed members.</h5><br>
+                    <form action="#" class="addPromo-form">
+                        <div class="input-group">
+                            <input type="text" name="movieTitle" id="movieTitle" required>
+                            <label for="movieTitle">Movie Title</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" name="discount" id="discount" required>
+                            <label for="discount">Discount Code</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" name="discountAmount" id="discountAmount" required>
+                            <label for="discountAmount">Discount Amount</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" name="password" id="password" required>
+                            <label for="password">Confirm Password</label>
+                        </div>
+                        <input type="submit" value="Add Discount Code" class="addCode-btn">
+                    </form>
+                </div>
+
+                <div class="currentPromos-container">
+                    <h2>Current Promotion Codes</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Movie Title</th>
+                                <th>Discount Code</th>
+                                <th>Discount Amount Off</th>
+                                <th>Date Added</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Shang-Chi and the Legend of the Ten Rings</td>
+                                <td>IOR1NG5</td>
+                                <td class="amount">0.10</td>
+                                <td>09/03/2021</td>
+                                <td>
+                                    <form action="">
+                                        <input type="hidden" name="" value="">
+                                        <input type="submit" value="Delete" class="delete-btn">
+                                    </form>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>
