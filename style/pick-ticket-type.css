@@ -93,6 +93,13 @@ body {
     width: 100%;
 }
 
+.ticket-box {
+    margin-top: 70px;
+    background-color: black;
+    padding-bottom: 50px;
+    border-radius: 15px;
+}
+
 .ticket-container {
     display: flex;
     text-align: center;
@@ -102,7 +109,7 @@ body {
 
 .minus-btn {
     flex: 1;
-    background-color: #151515;
+    background-color: black;
     color: lightgray;
     border: none;
     outline: none;
@@ -124,7 +131,7 @@ body {
 
 .plus-btn {
     flex: 1;
-    background-color: #151515;
+    background-color: black;
     color: lightgray;
     border: none;
     outline: none;

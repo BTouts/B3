@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color: #151515;
+    color: lightgrey;
+}
+
+.navbar{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+    height: 100%;
+    color: lightgray;
+}
+.navbar-btn {
+    background-color: black;
+    color: lightgray;
+    border: none;
+    outline: none;
+    opacity: 0.8;
+    text-decoration: none;
+    font-size: 30px;
+}
+.navbar-btn:hover {
+    opacity: 1;
+}
+
+.exit:hover {
+    color: crimson;
+}
+
+.exit {
+    flex: 1;
+    justify-self: flex-end;
+}
+
+.go-back {
+    flex: 1;
+    justify-self: flex-start;
+}
+
+.navbar-title {
+    flex: 9;
+    justify-self: center;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding-top: 5px;
+}
+
+
+.movie-description {
+    display: flex;
+    align-items: center;
+}
+
+.movie-img {
+    flex: 1;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.movie-info-container {
+    flex: 6;
+}
+
+.movie-title {
+    font-size: 50px;
+    padding-bottom: 4px;
+}
+
+.movie-info {
+    font-size: 18px;
+}
+
+.content-container {
+    
+    display: flex;
+    height: 500px;
+    
+}
+
+.login-signup-container {
+    width: 50%;
+}
+
+.promo-code-detail {
+    margin-top: 50px;
+    margin-left: 90px;
+    height: 400px;
+    width: 75%;
+    
+
+}
+
+.promo-code-detail h3 {
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+.promo-code-detail p {
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.button-container {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 35px;
+    display: flex;
+}
+
+.sign-in {
+    flex: 1; 
+    background-color: crimson;
+    color: white;
+    padding: 5px 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    opacity: 1;
+}
+
+.sign-in:hover {
+    opacity: .6;
+}
+
+.join-now {
+    flex: 1; 
+    background-color: crimson;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    opacity: 1;
+}
+
+.join-now:hover {
+    opacity: .6;
+}
+
+
+.order-container {
+    width: 50%;
+}
+
+.order-summary {
+    background-color: red;
+    width: 65%;
+    height: 400px;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+
+.order-item {
+    display: flex;
+}
+
+.order-item p {
+    flex: start;
+}
+
+.edit-ticket {
+    flex: end;
+}
+
