@@ -12,6 +12,7 @@ body {
     height: 50px;
     position: sticky;
     top: 0;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.7);
 }
 .navbar-container {
     display: flex;
@@ -78,6 +79,8 @@ body {
     margin-left: 50px;
     padding: 0 20px 10px 20px;
     border-radius: 10px;
+    border: 0.5px solid crimson;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.7);
 }
 
 .showtimes-dates-container, .showtimes-container {
