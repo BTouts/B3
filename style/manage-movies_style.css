@@ -3,15 +3,33 @@
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
-.suspend-user-container, .recover-user-container{
+.addMovie-container, .currentMovies-container{
     position: relative;
     width: 70%;
     margin: 10px 20px 80px;
     padding: 50px 40px 40px;
-    min-width: 300px;
+    min-width: 800px;
     background:black;
     border-radius: 10px;
     box-shadow: 0 15px 25px rgba(0,0,0,0.7);
+}
+
+.currentMovies-container{
+    position: relative;
+    width: 90%;
+    margin: 10px 20px 80px;
+    padding: 50px 40px 40px;
+    min-width: 800px;
+    background:black;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.7);
+}
+
+
+th, td{
+    text-align: left;
+    width:30%;
+    padding: 10px;
 }
 
 form .input-group{
@@ -47,7 +65,7 @@ form .input-group input:focus + label, .form .input-group input:valid + label{
     font-size: 0.9rem;
 }
 
-.suspend-btn, .recover-btn {
+.addMovie-btn{
     background-color: crimson;
     color: white;
     padding: 10px 20px;
@@ -62,6 +80,28 @@ form .input-group input:focus + label, .form .input-group input:valid + label{
     cursor: pointer;
 }
 
-.suspend-btn:hover, .recover-btn:hover{
+.delete-btn, .edit-btn{
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    display: block;
+    margin-left: auto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.amount{
+    text-align: right;
+}
+
+.addCode-btn:hover, .delete-btn:hover, .edit-btn:hover{
     background-color:rgb(228, 54, 54);
+}
+
+img{
+    width: 100px;
 }
