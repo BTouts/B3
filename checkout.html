@@ -32,114 +32,97 @@
     </div>
 
     <div class="content-container">
-        <div class="existing-payment">
-            <h3>Use Existing Payment</h3>
-            <br>
-            <div class="template-card">
-                <p>Mastercard ************6245 </p>
-                <button class="use-card">Use</button>
-            </div>
-        </div>
+        
         <div class="left-container">
-            <div class="billing-address">
-                <h3>Billing Address</h3>
-                <br>
-                <label for="fname">Full Name</label>
-                <br>
-                <input type="text" id="fname" name="fullname" placeholder="John Doe" required>
-                <br>
-                <label for="email">Email</label>
-                <br>
-                <input type="text" id="email" name="email" placeholder="johndoe@gmail.com" required>
-                <br>
-                <label for="adr">Address</label>
-                <br>
-                <input type="text" id="adr" name="address" placeholder="505 Riverbend Prkway" required>
-                <br>
-                <label for="city"><i class="fa fa-institution"></i> City</label>
-                <br>
-                <input type="text" id="city" name="city" placeholder="Athens" required>
-                <br>
+            <div class="existing-payment">
+                <h3>Use Existing Payment</h3>
+                
+                <div class="change">
+                    <p>Mastercard ************6245 </p><br>
+                    <form action="#" class="card-form">
+                        <div class="input-group">
+                            <input type="text" name="card_cvv">
+                            <label for="card_cvv">CVV</label>
+                        </div>
+                        <button class="update-btn">Use</button>
+                    </form>
+                </div>
+            </div>
+            <div class="update">
+                <h3>New Payment Information</h3>
+                <div class="change">
+                    <form action="#" class="card-form">
+                        <div class="input-group">
+                            <input type="text" name="card_Name" id="card_Name">
+                            <label for="card_Name">Name on Card</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" name="card_Num" id="card_Num">
+                            <label for="card_Num">Card Number</label>
+                        </div>
+                        <div class="select-group">
+                            <label for="card_Type">Card Type: </label>
+                            <select name="card_Type" id="card_Type">
+                                <option value="visa">Visa</option>
+                                <option value="mastercard">Mastercard</option>
+                                <option value="discover">Discover</option>
+                                <option value="america_express">America Express</option>
+                            </select>
+                        </div><br>
+                        <div class="expiration">
+                            <label for="card_ExpDate">Expiration Date: </label>
+                            <input type="text" name="card_ExpDate" id="card_ExpDate" placeholder="MM/YYYY">
+                        </div>
+                        <div class="input-group">
+                            <input type="password" name="password" id="password" class="textfield" required>
+                            <label for="password">Confirm Password</label>
+                        </div>
+                        <label>Use address as billing address </label> 
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                        <input type="submit" value="Update" class="update-btn">
+                    </form>
+                </div>
 
-                <div class="bottom-holder">
-                    <div class="col-50">
-                        <label for="state">State</label>
-                        <input type="text" id="state" name="state" placeholder="Georgia" required>
+            </div>
+            <!--end of left container-->
+        </div>
+
+            <div class="receipt">
+
+                <div class="item-total-container">
+                    <div class="items">
+                        <h3 class="header">Tickets</h3>
+                        <br>
+                        <br>
+                        <p>Adult x 1</p>
+                        <p>Child x 2</p>
+                        <p>Service</p>
+                        <p>Taxes</p>
+                        <hr class="line">
+                        <p>Total</p>
                     </div>
-                    <div class="col-50">
-                        <label for="zip">Zip</label>
-                        <input type="text" id="zip" name="zip" placeholder="30605" required>
+                    <div class="prices">
+                        <h3><a href="" class="edit">Edit</a></h3>
+                        <br>
+                        <br>
+                        <p>$9.00</p>
+                        <p>$13.00</p>
+                        <p>$2.00</p>
+                        <p>$1.54</p>
+                        <hr class="line2">
+                        <p>$25.54</p>
                     </div>
                 </div>
             </div>
 
-
-            <div class="payment">
-                <h3>Payment</h3>
-                <br>
-                <label for="cname">Name on Card</label>
-                <br>
-                <input type="text" name="cardname" placeholder="John Doe" required>
-                <br>
-                <label for="ccnum">Credit card number</label>
-                <br>
-                <input type="text" name="cardnumber" placeholder="1111-2222-3333-4444" required>
-                <br>
-                <label for="expmonth">Exp Month</label>
-                <br>
-                <input type="text" name="expmonth" placeholder="November" required>
-                <br>
-                <div class="row">
-                    <div class="col-50">
-                        <label for="expyear">Exp Year</label>
-                        <br>
-                        <input type="text" id="expyear" name="expyear" placeholder="2021" required>
-                        <br>
-                    </div>
-                    <div class="col-50">
-                        <label for="cvv">CVV</label> 
-                        <br>
-                        <input type="text" id="cvv" name="cvv" placeholder="345" required>
-                        <br>
-                    </div>
-                </div>
+            <div class="footer">
+                <button class="footer-btn">Purchase</i></button>
             </div>
+
         </div>
-
-
-        <div class="receipt">
-
-            <div class="item-total-container">
-                <div class="items">
-                    <h3 class="header">Tickets</h3>
-                    <br>
-                    <br>
-                    <p>Adult x 1</p>
-                    <p>Child x 2</p>
-                    <p>Service</p>
-                    <p>Taxes</p>
-                    <hr class="line">
-                    <p>Total</p>
-                </div>
-                <div class="prices">
-                    <h3><a href="" class="edit">Edit</a></h3>
-                    <br>
-                    <br>
-                    <p>$9.00</p>
-                    <p>$13.00</p>
-                    <p>$2.00</p>
-                    <p>$1.54</p>
-                    <hr class="line2">
-                    <p>$25.54</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer">
-            <button class="footer-btn">Purchase</i></button>
-        </div>
-
-    </div>
 
 </body>
 
