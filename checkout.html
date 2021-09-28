@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Checkout</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <button class="navbar-btn go-back">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <p class="navbar-title">Checkout</p>
+            <button class="navbar-btn exit">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="movie-description">
+        <div class="movie-img"><img src="images/shang chi circle.webp"></div>
+        <div class="movie-info-container">
+            <div class="movie-title">Shang-Chi and the Ledgend of the Ten Rings</div>
+            <div class="movie-info">E Booking Cenima Athens GA | TOMORROW SEP 24, 2021 | 3:15 PM | CLOSED CAPTION</div>
+        </div>
+    </div>
+
+    <div class="content-container">
+        <div class="left-container">
+            <div class="billing-address">
+                <h3>Billing Address</h3>
+                <br>
+                <label for="fname">Full Name</label>
+                <br>
+                <input type="text" id="fname" name="fullname" placeholder="John Doe" required>
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="text" id="email" name="email" placeholder="johndoe@gmail.com" required>
+                <br>
+                <label for="adr">Address</label>
+                <br>
+                <input type="text" id="adr" name="address" placeholder="505 Riverbend Prkway" required>
+                <br>
+                <label for="city"><i class="fa fa-institution"></i> City</label>
+                <br>
+                <input type="text" id="city" name="city" placeholder="Athens" required>
+                <br>
+
+                <div class="bottom-holder">
+                    <div class="col-50">
+                        <label for="state">State</label>
+                        <input type="text" id="state" name="state" placeholder="Georgia" required>
+                    </div>
+                    <div class="col-50">
+                        <label for="zip">Zip</label>
+                        <input type="text" id="zip" name="zip" placeholder="30605" required>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="payment">
+                <h3>Payment</h3>
+                <br>
+                <label for="cname">Name on Card</label>
+                <br>
+                <input type="text" name="cardname" placeholder="John Doe" required>
+                <br>
+                <label for="ccnum">Credit card number</label>
+                <br>
+                <input type="text" name="cardnumber" placeholder="1111-2222-3333-4444" required>
+                <br>
+                <label for="expmonth">Exp Month</label>
+                <br>
+                <input type="text" name="expmonth" placeholder="November" required>
+                <br>
+                <div class="row">
+                    <div class="col-50">
+                        <label for="expyear">Exp Year</label>
+                        <br>
+                        <input type="text" id="expyear" name="expyear" placeholder="2021" required>
+                        <br>
+                    </div>
+                    <div class="col-50">
+                        <label for="cvv">CVV</label> 
+                        <br>
+                        <input type="text" id="cvv" name="cvv" placeholder="345" required>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="receipt">
+
+            <div class="item-total-container">
+                <div class="items">
+                    <h3 class="header">Tickets</h3>
+                    <br>
+                    <br>
+                    <p>Adult x 1</p>
+                    <p>Child x 2</p>
+                    <p>Service</p>
+                    <p>Taxes</p>
+                    <hr class="line">
+                    <p>Total</p>
+                </div>
+                <div class="prices">
+                    <h3><a href="" class="edit">Edit</a></h3>
+                    <br>
+                    <br>
+                    <p>$9.00</p>
+                    <p>$13.00</p>
+                    <p>$2.00</p>
+                    <p>$1.54</p>
+                    <hr class="line2">
+                    <p>$25.54</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <button class="footer-btn">Purchase</i></button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

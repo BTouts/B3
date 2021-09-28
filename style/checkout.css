@@ -83,75 +83,24 @@ body {
 }
 
 .content-container {
-    
     display: flex;
     height: 500px;
     
 }
 
-.login-signup-container {
-    width: 50%;
-}
-
-.promo-code-detail {
-    margin-top: 50px;
-    margin-left: 220px;
-    height: 400px;
-    width: 95%;
-    
-
-}
-
-.promo-code-detail h3 {
-    padding-left: 15px;
-    padding-bottom: 20px;
-    font-size: 30px;
-}
-
-.promo-code-detail p {
-    padding-left: 15px;
-    padding-bottom: 10px;
-    font-size: 20px;
-}
-
-.button-container {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 35px;
+.left-container {
     display: flex;
+
 }
 
-.sign-in {
-    flex: 1; 
-    background-color: crimson;
-    color: white;
-    padding: 5px 20px;
-    margin-right: 20px;
-    border-radius: 20px;
-    border: none;
-    outline: none;
-    opacity: 1;
+.billing-address {
+    flex: 1;
 }
 
-.sign-in:hover {
-    opacity: .6;
+.payment {
+    flex: 1;
 }
 
-.join-now {
-    flex: 1; 
-    background-color: crimson;
-    color: white;
-    padding: 5px 20px;
-    border-radius: 20px;
-    border: none;
-    outline: none;
-    opacity: 1;
-}
-
-.join-now:hover {
-    opacity: .6;
-}
 
 
 .receipt {
@@ -224,6 +173,10 @@ body {
     border-radius: 20px;
     border: none;
     outline: none;
+    opacity: 1;
+}
+
+.footer-btn:hover {
     opacity: 0.6;
 }
 
