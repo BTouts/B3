@@ -12,44 +12,65 @@
     <body>
         <div class="register-container">
             <form action="" class="registration">
-                <h1 id="title">Create a New Account</h1>
-                <h3 id="subtitle">Please fill out the form below to create your account.</h3>
+                <h1 id="title">Create a New Account</h1><br>
+                <h3 id="subtitle">Please fill out the form below to create your account.</h3><br>
                 <div class="registration-form">
-                    <label for="username">*Username:</label>
-                    <input type="text" name="username" id="username" required autofocus> <br>
-                    <label for="full-name">*Full Name:</label>
-                    <input type="text" name="full-name" id="full-name" required> <br>
-                    <label for="email">*Email:</label>
-                    <input type="text" name="email" id="email" required> <br>
-                    <label for="phone-number">*Phone Number:</label>
-                    <input type="tel" name="phone-number" id="phone-number" required> <br>
-                    <label for="password">*Password:</label>
-                    <input type="password" name="password" id="password" required> <br>
-                    <label for="confirm-pass">*Confirm Password:</label>
-                    <input type="text" name="confirm-pass" id="confirm-pass" required> <br>
-                    <br><br>
+                    <div class="input-group">
+                        <input type="text" name="username" id="username" required autofocus>
+                        <label for="username">Username</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="full-name" id="full-name" required>
+                        <label for="full-name">Full Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="email" id="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" name="phone-number" id="phone-number" required>
+                        <label for="phone-number">Phone Number</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" name="password" id="password" required>
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="input-group">
+                        <label for="confirm-pass">Confirm Password</label>
+                        <input type="text" name="confirm-pass" id="confirm-pass" required>
+                    </div>
                 </div>
                 <fieldset>
                     <legend><strong>Payment Method</strong></legend>
                     <div class="payment-fields">
-                        <label for="card_Name">Name on Card: </label>
-                        <input type="text" name="card_Name" id="card_Name"><br>
-                        <label for="card_Num">Card Number: </label>
-                        <input type="text" name="card_Num" id="card_Num"><br>
-                        <label for="card_Type">Card Type: </label>
-                        <select name="card_Type" id="card_Type">
-                            <option value="visa">Visa</option>
-                            <option value="mastercard">Mastercard</option>
-                            <option value="discover">Discover</option>
-                            <option value="america_express">America Express</option>
-                        </select><br>
-                        <label for="card_ExpDate">Expiration Date: </label>
-                        <input type="text" name="card_ExpDate" id="card_ExpDate" placeholder="MM/YYYY"><br>
-                    </div>
+                        <div class="input-group">
+                            <input type="text" name="card_Name" id="card_Name">
+                            <label for="card_Name">Name on Card</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" name="card_Num" id="card_Num">
+                            <label for="card_Num">Card Number</label>
+                        </div>
+                        <div class="select-group">
+                            <label for="card_Type">Card Type: </label>
+                            <select name="card_Type" id="card_Type">
+                                <option value="visa">Visa</option>
+                                <option value="mastercard">Mastercard</option>
+                                <option value="discover">Discover</option>
+                                <option value="america_express">America Express</option>
+                            </select>
+                        </div><br>
+                        <div class="expiration">
+                            <label for="card_ExpDate">Expiration Date: </label>
+                            <input type="text" name="card_ExpDate" id="card_ExpDate" placeholder="MM/YYYY">
+                        </div>
+                        <div class="input-group">
+                            <input type="password" name="password" id="password" class="textfield"  required>
+                            <label for="password">Confirm Password</label>
+                        </div>
                     <div class="address-layout">
                         <h4>Billing Address</h4>
-                        <input type="text" name="billing-address-line1" id="billing-address-line1" class="address-lines" placeholder="Address Line 1"><br>
-
+                        <input type="text" name="billing-address-line1" id="billing-address-line1" class="address-lines" placeholder="Address Line 1">
                         <input type="text" name="billing-address-line2" id="billing-address-line2" class="address-lines" placeholder="Address Line 2 (Optional)"><br>
                         <input type="text" name="billing-address-city" id="billing-address-city" placeholder="City">
                         <input type="text" name="billing-address-state" id="billing-address-state" placeholder="State">
@@ -62,7 +83,7 @@
                 <input type="checkbox" name="termsandcons" class="check">
                 <label for="termsandcons" required class="check-label">I agree to the Terms & Conditions and Privacy Policies.</label><br>
 
-                <input type="submit" id="create-button" value="Create Account">
+                <input type="submit" class="create-btn" value="Create Account">
             </form>
         </div>
     </body>

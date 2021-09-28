@@ -1,15 +1,39 @@
 * {
     margin: 0;
     font-family: 'Be Vietnam Pro', sans-serif;
+    color: #fff;
 }
 
 body{
-    background-color: #4d4d4d;
-    color: white;
+    background-color: #151515;
 }
 
 #title{
     text-align: center;
+}
+
+.registration{
+    position: relative;
+    width: auto;
+    margin: auto;
+    max-width: 500px;
+    padding: 40px 40px 60px;
+    background:black;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.7);
+}
+
+.registration-form{
+    margin: auto;
+    width: 100%;
+}
+
+fieldset, .address-layout{
+    clear:both;
+    width:auto;
+    margin:auto;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .register-container{
@@ -31,38 +55,47 @@ body{
     box-shadow: 0 15px 25px rgba(0,0,0,0.7);
 }
 
-.registration-form, .payment-fields{
-    float:left;
-    text-align:right;
-}
 
-.registration-form{
-    margin: auto;
-    width: 100%;
-}
-
-.registration-form input{
-    width: 65%;
-}
-
-fieldset, .address-layout{
-    clear:both;
-    width:auto;
-    margin:auto;
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-.address-layout .address-lines{
-    width: 100%;
-}
-
-.check{
-    float:left;
+th, td{
     text-align: left;
+    width:30%;
+    padding: 10px;
 }
 
-#create-button{
+form .input-group{
+    position: relative;
+}
+
+form .input-group input{
+    width: 60%;
+    padding: 10px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
+}
+
+form .input-group label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: 0.3s ease-out;
+}
+
+form .input-group input:focus + label, .form .input-group input:valid + label{
+    transform: translateY(-18px);
+    color: crimson;
+    font-size: 0.9rem;
+}
+
+.create-btn{
     background-color: crimson;
     color: white;
     padding: 10px 20px;
@@ -78,6 +111,15 @@ fieldset, .address-layout{
     cursor: pointer;
 }
 
-h4{
-    padding-top: 20px;
+.create-btn:hover{
+    background-color:rgb(228, 54, 54);
 }
+
+fieldset, .address-layout{
+    clear:both;
+    width:auto;
+    margin:auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
