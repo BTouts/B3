@@ -106,4 +106,25 @@ body {
     color: crimson;
     font-weight: 500;
 }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 15px 0;
+ }
 
+ .continue {
+     margin-right: 100px;
+     margin-left: auto;
+     background-color: crimson;
+     padding: 10px 20px;
+     border-radius: 20px;
+     border: none;
+     outline: none;
+     text-decoration: none;
+     color: white;
+ }

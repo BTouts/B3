@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.suspend-user-container, .recover-user-container{
+    position: relative;
+    width: 70%;
+    margin: 10px 20px 80px;
+    padding: 50px 40px 40px;
+    min-width: 300px;
+    background:black;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.7);
+}
+
+form .input-group{
+    position: relative;
+}
+
+form .input-group input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
+}
+
+form .input-group label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: 0.3s ease-out;
+}
+
+form .input-group input:focus + label, .form .input-group input:valid + label{
+    transform: translateY(-18px);
+    color: crimson;
+    font-size: 0.9rem;
+}
+
+.suspend-btn, .recover-btn {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.suspend-btn:hover, .recover-btn:hover{
+    background-color:rgb(228, 54, 54);
+}
