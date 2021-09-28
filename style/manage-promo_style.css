@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
 .addPromo-container, .currentPromos-container{
     position: relative;
     width: 70%;
@@ -20,7 +25,7 @@ form .input-group{
 }
 
 form .input-group input{
-    width: 100%;
+    width: 60%;
     padding: 10px 0;
     font-size: 1rem;
     letter-spacing: 1px;
