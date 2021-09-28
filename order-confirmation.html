@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/order-confirmation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Order Confirmation</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <button class="navbar-btn go-back">
+                <i class="fas fa-chevron-left"></i>
+            </button> 
+            <a href="index.html">
+                <button class="navbar-btn exit">
+                    <i class="fas fa-times"></i>
+                </button>
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="confirmation">
+            <p class="confirmation-number">
+                Confirmation Number: 1234-5678
+            </p>
+            <p class="confirmation-massage">
+                Your order was successful!
+            </p>
+            <p>You have [AMOUNT] tickets for seats: [SEAT NUMBER]</p>
+        </div>
+        <div class="receipt">
+            <p class="receipt-header">Order Summary</p>
+            <div class="item-total-container">
+                <div class="items">
+                    <p>[Movie Name] <span class="ticket-type">adult</span></p>
+                    <p>x1</p>
+                    <p>[Movie Name] <span class="ticket-type">child</span></p>
+                    <p>x2</p>
+                    <p>Service</p>
+                    <p>Taxes</p>
+                    <hr>
+                    <p>Total</p>
+                </div>
+                <div class="prices">
+                    <br>
+                    <p>$9.00</p>
+                    <br>
+                    <p>$13.00</p>
+                    <p>$2.00</p>
+                    <p>$1.54</p>
+                    <hr>
+                    <p>$25.54</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
