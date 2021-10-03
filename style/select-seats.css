@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 body {
@@ -174,6 +175,7 @@ body {
     border: none;
     outline: none;
     opacity: 1;
+    text-decoration: none;
 }
 
 .footer-btn:hover {

@@ -109,8 +109,34 @@ body {
     color: crimson;
     font-weight: 500;
 }
+
+.trailer-container {
+    width: 90vw;
+    margin: 50px;
+    background-color:black;
+    border-radius: 10px;
+    border: 0.5px solid crimson;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.7);
+}
+
+.trailer {
+    width:100%;
+}
+
+.container {
+    margin: 10px 50px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    color: lightgray;
+    background-color: black;
+    border-radius: 10px;
+    border: 0.5px solid crimson;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.7);
+}
+
 .footer {
-    position: fixed;
+    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;

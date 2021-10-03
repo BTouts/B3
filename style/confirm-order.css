@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 body {
@@ -132,30 +133,17 @@ body {
     border: none;
     outline: none;
     opacity: 1;
+    text-decoration: none;
 }
 
 .sign-in:hover {
     opacity: .6;
 }
 
-.join-now {
-    flex: 1; 
-    background-color: crimson;
-    color: white;
-    padding: 5px 20px;
-    border-radius: 20px;
-    border: none;
-    outline: none;
-    opacity: 1;
-}
-
-.join-now:hover {
-    opacity: .6;
-}
 
 
 .receipt {
-    background-color:rgb(117, 117, 117);
+    background-color: black;
     color:white;
     width: 40%;
     height: 300px;
@@ -165,6 +153,8 @@ body {
     border-radius: 15px;
     padding: 20px;
     opacity: 1;
+    border: 0.5px solid crimson;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.7);
 }
 
 .line {
@@ -224,7 +214,13 @@ body {
     border-radius: 20px;
     border: none;
     outline: none;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.footer-btn:hover {
     opacity: 0.6;
+    cursor: pointer;
 }
 
 

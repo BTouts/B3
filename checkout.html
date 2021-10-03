@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style/checkout.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Checkout</title>
 </head>
 
@@ -34,9 +35,18 @@
     <div class="content-container">
         
         <div class="left-container">
-            <div class="existing-payment">
+            <div class="existing-payment">   
+                <h3>Enter Promo Code</h3>
+                <div class="change">
+                    <form action="#" class="card-form">
+                        <div class="input-group">
+                            <input type="text" name="card_cvv">
+                            <label for="card_cvv">Promo Code:</label>
+                        </div>
+                        <button class="update-btn">Apply</button>
+                    </form>
+                </div>
                 <h3>Use Existing Payment</h3>
-                
                 <div class="change">
                     <p>Mastercard ************6245 </p><br>
                     <form action="#" class="card-form">
@@ -105,7 +115,7 @@
                         <p>Total</p>
                     </div>
                     <div class="prices">
-                        <h3><a href="" class="edit">Edit</a></h3>
+                        <h3><a href="pick-ticket-type.html" class="edit">Edit</a></h3>
                         <br>
                         <br>
                         <p>$9.00</p>
@@ -119,7 +129,7 @@
             </div>
 
             <div class="footer">
-                <button class="footer-btn">Purchase</i></button>
+                <a href="order-confirmation.html" class="footer-btn">Purchase</i></a>
             </div>
 
         </div>

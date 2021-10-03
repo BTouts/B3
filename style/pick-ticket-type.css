@@ -1,5 +1,6 @@
-*{
+* {
     margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 body {
@@ -156,7 +157,7 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: row-reverse;
-    padding-left: 600px;
+    padding-left: 450px;
 }
 
 .footer-text {

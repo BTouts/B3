@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 body {
@@ -109,7 +110,7 @@ body {
 
 .change{
     margin-bottom: 70px;
-    border: 0.5px solid gray;
+    border: 0.5px solid crimson;
 }
 
 
@@ -183,7 +184,7 @@ form .input-group input:focus + label, .form .input-group input:valid + label{
 .receipt {
     background:black;
     border-radius: 10px;
-    border: 0.5px solid gray;
+    border: 0.5px solid crimson;
     box-shadow: 0 15px 25px rgba(0,0,0,0.7);
     width: 30%;
     height: 300px;
@@ -197,7 +198,7 @@ form .input-group input:focus + label, .form .input-group input:valid + label{
 
 .line {
     height: 1px;
-    width: 415px;
+    width: 375px;
     background-color: white;
     border: none;
 
@@ -253,6 +254,7 @@ form .input-group input:focus + label, .form .input-group input:valid + label{
     border: none;
     outline: none;
     opacity: 1;
+    text-decoration: none;
 }
 
 .footer-btn:hover {
